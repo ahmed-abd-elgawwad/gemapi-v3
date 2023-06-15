@@ -1,0 +1,4 @@
+gunicorn
+pandas
+pickle
+flask
