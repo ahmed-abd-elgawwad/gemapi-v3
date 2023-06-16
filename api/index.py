@@ -3,7 +3,7 @@ import pickle
 from pandas import DataFrame 
 
 # Load the trained model
-model = pickle.load(open("../api_model.pkl", "rb"))
+model = pickle.load(open("../model_v1.pkl", "rb"))
 
 # Create the Flask app
 app = Flask(__name__)
